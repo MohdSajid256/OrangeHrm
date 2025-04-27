@@ -32,12 +32,8 @@ login_button.click()
 
 time.sleep(3)
 
-# Step 5: Validate login success by checking if Dashboard is loaded
-current_url = driver.current_url
-if "dashboard" in current_url.lower():
-    print("✅ Login Successful! Dashboard page opened.")
-else:
-    print("❌ Login Failed!")
+title=driver.title
+assert "OrangeHRM" in title
 
 # Optional: Close the browser
 driver.quit()
