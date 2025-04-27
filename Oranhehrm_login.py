@@ -10,7 +10,7 @@ URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
 USERNAME = "Admin"
 PASSWORD = "admin123"
 
-# Setup WebDriver (Make sure ChromeDriver is installed)
+# Setup WebDriver (Make sure Driver is installed)
 driver = webdriver.Firefox()
 
 # Step 1: Open the login page
